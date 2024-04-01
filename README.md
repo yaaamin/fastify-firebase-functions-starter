@@ -1,0 +1,1 @@
+# Fastify Firebase Functions Starter
