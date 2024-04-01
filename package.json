@@ -1,5 +1,5 @@
 {
-  "name": "hdc-cms-api",
+  "name": "fastify-firebase-functions-starter",
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT",
