@@ -1,0 +1,30 @@
+{
+  "name": "hdc-cms-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "fastify": "^4.26.2",
+    "firebase": "^10.10.0",
+    "firebase-functions": "^4.8.2"
+  },
+  "devDependencies": {
+    "firebase-admin": "^12.0.0",
+    "nodemon": "^3.1.0",
+    "pino-pretty": "^11.0.0"
+  }
+}
